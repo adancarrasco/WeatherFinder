@@ -1,0 +1,1 @@
+export const OPEN_WEATHER_APP_ID = "45df844abae1c2727dbb30064bb9b954";
