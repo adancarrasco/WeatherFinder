@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import { fetchWeatherByCityName } from "../utils/weatherSvs";
+import WeatherDetailsTable from "./WeatherDetailsTable";
 
 import styles from "./WeatherCard.module.css";
 
@@ -53,14 +54,15 @@ class WeatherCard extends Component {
         currentTemp: temp,
         maxTemp: temp_max,
         minTemp: temp_min,
-        description: main
+        description: main,
+        data
       });
     }
   }
 
   /**
-   * Fetches the weather info; if response.status is 200 fills the state 
-   * with the weather info, otherwise handles the 404 error or 
+   * Fetches the weather info; if response.status is 200 fills the state
+   * with the weather info, otherwise handles the 404 error or
    * catch a different one
    */
   fetchWeatherInfo = () => {
@@ -77,16 +79,36 @@ class WeatherCard extends Component {
       });
   };
 
+  renderTableDetails() {
+    if (this.state.data) {
+      const { data } = this.state;
+      const { sunrise, sunset } = data.sys;
+      const { humidity, pressure} = data.main;
+      const { speed } = data.wind;
+      return (
+        <WeatherDetailsTable
+          sunrise={sunrise}
+          sunset={sunset}
+          humidity={humidity}
+          pressure={pressure}
+          windSpeed={speed}
+        />
+      );
+    }
+    return null;
+  }
+
   render() {
     const { cityName } = this.props;
     const { currentTemp, maxTemp, minTemp, description } = this.state;
+    const currentWeatherAlt = "Current weather";
 
     return (
       <div className={styles.mainContainer}>
         <div className={styles.container}>
           <h3 className={styles.cityName}>{cityName}</h3>
           <div className={styles.imageContainer}>
-            <img src={this.state.selectedImage} alt="Current weather" />
+            <img src={this.state.selectedImage} alt={currentWeatherAlt} />
           </div>
           <div className={styles.tempContainer}>
             <span className={styles.currentTemp}>{currentTemp}°</span>
@@ -104,6 +126,7 @@ class WeatherCard extends Component {
             <h3 className={styles.description}>{description}</h3>
           </div>
         </div>
+        {this.renderTableDetails()}
       </div>
     );
   }

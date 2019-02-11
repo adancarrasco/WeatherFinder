@@ -1,0 +1,872 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeatherDetailsTable it renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WeatherDetailsTable
+    humidity={86}
+    pressure={990}
+    sunrise={1549866667}
+    sunset={1549901460}
+    windSpeed={9.8}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3
+          className="title"
+        >
+          Details
+        </h3>,
+        <div>
+          <span>
+            Sunrise*
+          </span>
+          <span>
+            00:02
+            <span>
+              AM
+            </span>
+          </span>
+        </div>,
+        <div>
+          <span>
+            Sunset*
+          </span>
+          <span>
+            10:02
+            <span>
+              AM
+            </span>
+          </span>
+        </div>,
+        <div>
+          <span>
+            Humidity
+          </span>
+          <span>
+            86
+            <span>
+              %
+            </span>
+          </span>
+        </div>,
+        <div>
+          <span>
+            Pressure
+          </span>
+          <span>
+            990
+            <span>
+              hPa
+            </span>
+          </span>
+        </div>,
+        <div>
+          <span>
+            Wind speed
+          </span>
+          <span>
+            9.8
+            <span>
+              mps
+            </span>
+          </span>
+        </div>,
+        <span
+          className="timeAsUtcMessage"
+        >
+          *Times are shown in UTC
+        </span>,
+      ],
+      "className": "tableDetails",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Details",
+          "className": "title",
+        },
+        "ref": null,
+        "rendered": "Details",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Sunrise*
+            </span>,
+            <span>
+              00:02
+              <span>
+                AM
+              </span>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sunrise*",
+            },
+            "ref": null,
+            "rendered": "Sunrise*",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "00:02",
+                <span>
+                  AM
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "00:02",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "AM",
+                },
+                "ref": null,
+                "rendered": "AM",
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Sunset*
+            </span>,
+            <span>
+              10:02
+              <span>
+                AM
+              </span>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Sunset*",
+            },
+            "ref": null,
+            "rendered": "Sunset*",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "10:02",
+                <span>
+                  AM
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "10:02",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "AM",
+                },
+                "ref": null,
+                "rendered": "AM",
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Humidity
+            </span>,
+            <span>
+              86
+              <span>
+                %
+              </span>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Humidity",
+            },
+            "ref": null,
+            "rendered": "Humidity",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                86,
+                <span>
+                  %
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              86,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "%",
+                },
+                "ref": null,
+                "rendered": "%",
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Pressure
+            </span>,
+            <span>
+              990
+              <span>
+                hPa
+              </span>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Pressure",
+            },
+            "ref": null,
+            "rendered": "Pressure",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                990,
+                <span>
+                  hPa
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              990,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "hPa",
+                },
+                "ref": null,
+                "rendered": "hPa",
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Wind speed
+            </span>,
+            <span>
+              9.8
+              <span>
+                mps
+              </span>
+            </span>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Wind speed",
+            },
+            "ref": null,
+            "rendered": "Wind speed",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                9.8,
+                <span>
+                  mps
+                </span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              9.8,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "mps",
+                },
+                "ref": null,
+                "rendered": "mps",
+                "type": "span",
+              },
+            ],
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "*Times are shown in UTC",
+          "className": "timeAsUtcMessage",
+        },
+        "ref": null,
+        "rendered": "*Times are shown in UTC",
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="title"
+          >
+            Details
+          </h3>,
+          <div>
+            <span>
+              Sunrise*
+            </span>
+            <span>
+              00:02
+              <span>
+                AM
+              </span>
+            </span>
+          </div>,
+          <div>
+            <span>
+              Sunset*
+            </span>
+            <span>
+              10:02
+              <span>
+                AM
+              </span>
+            </span>
+          </div>,
+          <div>
+            <span>
+              Humidity
+            </span>
+            <span>
+              86
+              <span>
+                %
+              </span>
+            </span>
+          </div>,
+          <div>
+            <span>
+              Pressure
+            </span>
+            <span>
+              990
+              <span>
+                hPa
+              </span>
+            </span>
+          </div>,
+          <div>
+            <span>
+              Wind speed
+            </span>
+            <span>
+              9.8
+              <span>
+                mps
+              </span>
+            </span>
+          </div>,
+          <span
+            className="timeAsUtcMessage"
+          >
+            *Times are shown in UTC
+          </span>,
+        ],
+        "className": "tableDetails",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Details",
+            "className": "title",
+          },
+          "ref": null,
+          "rendered": "Details",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Sunrise*
+              </span>,
+              <span>
+                00:02
+                <span>
+                  AM
+                </span>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sunrise*",
+              },
+              "ref": null,
+              "rendered": "Sunrise*",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "00:02",
+                  <span>
+                    AM
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "00:02",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "AM",
+                  },
+                  "ref": null,
+                  "rendered": "AM",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Sunset*
+              </span>,
+              <span>
+                10:02
+                <span>
+                  AM
+                </span>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Sunset*",
+              },
+              "ref": null,
+              "rendered": "Sunset*",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "10:02",
+                  <span>
+                    AM
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "10:02",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "AM",
+                  },
+                  "ref": null,
+                  "rendered": "AM",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Humidity
+              </span>,
+              <span>
+                86
+                <span>
+                  %
+                </span>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Humidity",
+              },
+              "ref": null,
+              "rendered": "Humidity",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  86,
+                  <span>
+                    %
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                86,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "%",
+                  },
+                  "ref": null,
+                  "rendered": "%",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Pressure
+              </span>,
+              <span>
+                990
+                <span>
+                  hPa
+                </span>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Pressure",
+              },
+              "ref": null,
+              "rendered": "Pressure",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  990,
+                  <span>
+                    hPa
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                990,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "hPa",
+                  },
+                  "ref": null,
+                  "rendered": "hPa",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Wind speed
+              </span>,
+              <span>
+                9.8
+                <span>
+                  mps
+                </span>
+              </span>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Wind speed",
+              },
+              "ref": null,
+              "rendered": "Wind speed",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  9.8,
+                  <span>
+                    mps
+                  </span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                9.8,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "mps",
+                  },
+                  "ref": null,
+                  "rendered": "mps",
+                  "type": "span",
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "*Times are shown in UTC",
+            "className": "timeAsUtcMessage",
+          },
+          "ref": null,
+          "rendered": "*Times are shown in UTC",
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

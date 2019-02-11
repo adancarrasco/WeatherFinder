@@ -1,0 +1,36 @@
+.tableDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1em;
+}
+
+.tableDetails > div {
+  display: flex;
+  border-bottom: 1px solid #ababab;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.tableDetails > div > span:first-child {
+  flex: 1;
+}
+
+.tableDetails > div > span {
+  color: #484848;
+}
+
+.tableDetails > div > span > span {
+  font-size: 0.8em;
+}
+
+.title {
+  color: #484848;
+  font-weight: 200;
+}
+
+.timeAsUtcMessage {
+  font-size: 0.75em;
+  text-align: right;
+  color: #acacac;
+}
