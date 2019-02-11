@@ -4,7 +4,8 @@ import WeatherCard from "../WeatherCard";
 
 describe("WeatherCard", () => {
   it("it should render correctly", () => {
-    const wrapper = mount(<WeatherCard />);
+    const cityName = "Berlin";
+    const wrapper = mount(<WeatherCard cityName={cityName} />);
     expect(wrapper).toMatchSnapshot();
   });
 });
