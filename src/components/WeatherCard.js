@@ -44,14 +44,13 @@ class WeatherCard extends Component {
    * @param {Object} data
    */
   fillState(data) {
-    console.log(data);
     const { weather } = data;
     if (weather.length > 0) {
       const { main, icon } = data.weather[0];
       const { temp, temp_max, temp_min } = data.main;
       this.setImage(icon);
       this.setState({
-        currentTemp: temp,
+        currentTemp: Math.round(temp),
         maxTemp: temp_max,
         minTemp: temp_min,
         description: main,
@@ -75,6 +74,7 @@ class WeatherCard extends Component {
         this.fillState(response.data);
       })
       .catch(error => {
+        this.setState({ data: { error: true } });
         console.error(error);
       });
   };
@@ -83,7 +83,7 @@ class WeatherCard extends Component {
     if (this.state.data) {
       const { data } = this.state;
       const { sunrise, sunset } = data.sys;
-      const { humidity, pressure} = data.main;
+      const { humidity, pressure } = data.main;
       const { speed } = data.wind;
       return (
         <WeatherDetailsTable
@@ -98,12 +98,14 @@ class WeatherCard extends Component {
     return null;
   }
 
-  render() {
+  renderCard() {
     const { cityName } = this.props;
     const { currentTemp, maxTemp, minTemp, description } = this.state;
     const currentWeatherAlt = "Current weather";
 
-    return (
+    return this.state.data.error ? (
+      <div>City not found</div>
+    ) : (
       <div className={styles.mainContainer}>
         <div className={styles.container}>
           <h3 className={styles.cityName}>{cityName}</h3>
@@ -129,6 +131,10 @@ class WeatherCard extends Component {
         {this.renderTableDetails()}
       </div>
     );
+  }
+
+  render() {
+    return this.state.data ? this.renderCard() : null;
   }
 }
 
