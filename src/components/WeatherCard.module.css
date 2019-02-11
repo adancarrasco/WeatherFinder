@@ -1,5 +1,5 @@
 .mainContainer {
-  display: flex;
+  display: inline-flex;
   width: 510px;
   margin: 10px;
   /* border: 1px solid #ababab; */
