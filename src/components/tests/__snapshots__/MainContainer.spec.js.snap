@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainContainer it should render correctly 1`] = `
+"<div className=\\"mainContainer\\">
+  <div />
+</div>"
+`;
+
+exports[`MainContainer it should render correctly with children 1`] = `
+"<div className=\\"mainContainer\\">
+  <div />
+</div>"
+`;
