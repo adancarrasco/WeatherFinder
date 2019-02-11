@@ -3,8 +3,8 @@
   width: 510px;
   margin: 10px;
   /* border: 1px solid #ababab; */
-  background-color: #fff;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.4);
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
   border-radius: 1px;
   padding: 10px 0;
 }
@@ -19,7 +19,7 @@
 }
 
 .cityName {
-  color: #525151;
+  color: var(--title-text);
   margin: 0;
   text-transform: uppercase;
   font-weight: 400;
@@ -33,7 +33,7 @@
 .currentTemp {
   font-size: 4em;
   font-weight: 300;
-  color: #484848;
+  color: var(--body-text);
 }
 
 .unit {
@@ -41,7 +41,7 @@
   font-weight: 600;
   position: relative;
   left: -12px;
-  color: #484848;
+  color: var(--body-text);
 }
 
 .minMaxContainer {
@@ -56,5 +56,6 @@
 .description {
   font-weight: 400;
   margin-bottom: 5px;
-  color: #484848;
+  color: var(--body-text);
+  text-transform: capitalize;
 }

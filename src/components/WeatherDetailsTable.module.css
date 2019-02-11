@@ -17,7 +17,7 @@
 }
 
 .tableDetails > div > span {
-  color: #484848;
+  color: var(--body-text);
 }
 
 .tableDetails > div > span > span {
@@ -25,7 +25,7 @@
 }
 
 .title {
-  color: #484848;
+  color: var(--body-text);
   font-weight: 200;
 }
 
