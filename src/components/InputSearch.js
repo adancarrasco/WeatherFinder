@@ -26,7 +26,7 @@ class InputSearch extends Component {
         <input
           className={styles.inputSearch}
           type="text"
-          placeholder="London"
+          placeholder="Input the city name"
           onChange={this.handleChange}
           value={this.state.cityName}
         />
