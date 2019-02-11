@@ -46,14 +46,14 @@ class WeatherCard extends Component {
   fillState(data) {
     const { weather } = data;
     if (weather.length > 0) {
-      const { main, icon } = data.weather[0];
+      const { description, icon } = data.weather[0];
       const { temp, temp_max, temp_min } = data.main;
       this.setImage(icon);
       this.setState({
         currentTemp: Math.round(temp),
         maxTemp: temp_max,
         minTemp: temp_min,
-        description: main,
+        description: description,
         data
       });
     }
