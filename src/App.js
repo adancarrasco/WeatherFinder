@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import MainContainer from "./components/MainContainer";
+import Home from "./screens/Home";
 
 class App extends Component {
   render() {
-    return <MainContainer />;
+    return <Home />;
   }
 }
 
