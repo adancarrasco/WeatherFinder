@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
 
-import InputSearch from "../InputSearch";
+import FormSearch from "../FormSearch";
 
-describe("InputSearch", () => {
+describe("FormSearch", () => {
   it("it renders correctly", () => {
-    const wrapper = shallow(<InputSearch />);
+    const wrapper = shallow(<FormSearch />);
     expect(wrapper).toMatchSnapshot();
   });
 });

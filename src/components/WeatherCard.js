@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-import { fetchWeatherByCityName } from "../utils/weatherSvs";
 import WeatherDetailsTable from "./WeatherDetailsTable";
 
 import styles from "./WeatherCard.module.css";
@@ -10,19 +9,13 @@ class WeatherCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedImage: null,
-      currentTemp: null,
-      maxTemp: null,
-      minTemp: null,
-      description: null
+      selectedImage: null
     };
   }
 
   componentDidMount() {
-    this.fetchWeatherInfo();
+    this.setImage(this.props.icon);
   }
-
-  // shouldComponentUpdate() {}
 
   /**
    * Dynamic import and sets in the state the path for the image in the Card
@@ -33,55 +26,16 @@ class WeatherCard extends Component {
     try {
       selectedImage = await import(`../images/${imageId}.svg`);
       selectedImage = selectedImage.default;
+      this.setState({ selectedImage });
     } catch (e) {
       console.warn(`There was an error loading the image: ${e}`);
     }
-    this.setState({ selectedImage });
+    return selectedImage;
   }
 
-  /**
-   * Fills the Component state from the fetched data
-   * @param {Object} data
-   */
-  fillState(data) {
-    const { weather } = data;
-    if (weather.length > 0) {
-      const { description, icon } = data.weather[0];
-      const { temp, temp_max, temp_min } = data.main;
-      this.setImage(icon);
-      this.setState({
-        currentTemp: Math.round(temp),
-        maxTemp: temp_max,
-        minTemp: temp_min,
-        description: description,
-        data
-      });
-    }
-  }
-
-  /**
-   * Fetches the weather info; if response.status is 200 fills the state
-   * with the weather info, otherwise handles the 404 error or
-   * catch a different one
-   */
-  fetchWeatherInfo = () => {
-    const { cityName } = this.props;
-    fetchWeatherByCityName(cityName)
-      .then(response => {
-        if (!response || response.status !== 200) {
-          throw new Error();
-        }
-        this.fillState(response.data);
-      })
-      .catch(error => {
-        this.setState({ data: { error: true } });
-        console.error(error);
-      });
-  };
-
-  renderTableDetails() {
-    if (this.state.data) {
-      const { data } = this.state;
+  renderTableDetails = () => {
+    if (this.props.data) {
+      const { data } = this.props;
       const { sunrise, sunset } = data.sys;
       const { humidity, pressure } = data.main;
       const { speed } = data.wind;
@@ -96,16 +50,13 @@ class WeatherCard extends Component {
       );
     }
     return null;
-  }
+  };
 
-  renderCard() {
-    const { cityName } = this.props;
-    const { currentTemp, maxTemp, minTemp, description } = this.state;
+  renderCard = () => {
+    const { cityName, currentTemp, maxTemp, minTemp, description } = this.props;
     const currentWeatherAlt = "Current weather";
 
-    return this.state.data.error ? (
-      <div>City not found</div>
-    ) : (
+    return (
       <div className={styles.mainContainer}>
         <div className={styles.container}>
           <h3 className={styles.cityName}>{cityName}</h3>
@@ -131,15 +82,25 @@ class WeatherCard extends Component {
         {this.renderTableDetails()}
       </div>
     );
-  }
+  };
 
   render() {
-    return this.state.data ? this.renderCard() : null;
+    return this.props.data ? this.renderCard() : null;
   }
 }
 
 WeatherCard.propTypes = {
-  cityName: PropTypes.string.isRequired
+  cityName: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  currentTemp: PropTypes.number.isRequired,
+  maxTemp: PropTypes.number.isRequired,
+  minTemp: PropTypes.number.isRequired,
+  description: PropTypes.string.isRequired,
+  sunrise: PropTypes.number,
+  sunset: PropTypes.number,
+  humidity: PropTypes.number,
+  pressure: PropTypes.number,
+  windSpeed: PropTypes.number
 };
 
 export default WeatherCard;

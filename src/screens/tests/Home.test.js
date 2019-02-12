@@ -1,11 +1,14 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { mount } from "enzyme";
 
 import Home from "../Home";
+import FormSearch from "../../components/FormSearch";
 
 describe("Home screen", () => {
   it("it renders correctly", () => {
-    const wrapper = shallow(<Home />);
-    expect(wrapper).toMatchSnapshot();
+    const wrapper = mount(<Home />);
+    expect(wrapper.find(FormSearch)).toHaveLength(1);
+    expect(wrapper.instance().formSearch).toBeTruthy();
+    expect(wrapper.debug()).toMatchSnapshot();
   });
 });

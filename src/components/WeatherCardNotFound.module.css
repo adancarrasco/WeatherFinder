@@ -1,0 +1,5 @@
+.container {
+  width: 510px;
+  display: inline-flex;
+  margin: 10px;
+}

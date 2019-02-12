@@ -1,154 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Home screen it renders correctly 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Home />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "checkPropTypes": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "function",
-    "props": Object {
-      "children": Array [
-        <InputSearch
-          handleSearch={[Function]}
-        />,
-        Array [
-          <WeatherCard
-            cityName="Berlin"
-          />,
-          <WeatherCard
-            cityName="Waltham"
-          />,
-        ],
-      ],
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "handleSearch": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "Berlin",
-        "nodeType": "class",
-        "props": Object {
-          "cityName": "Berlin",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "Waltham",
-        "nodeType": "class",
-        "props": Object {
-          "cityName": "Waltham",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "function",
-      "props": Object {
-        "children": Array [
-          <InputSearch
-            handleSearch={[Function]}
-          />,
-          Array [
-            <WeatherCard
-              cityName="Berlin"
-            />,
-            <WeatherCard
-              cityName="Waltham"
-            />,
-          ],
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "handleSearch": [Function],
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "Berlin",
-          "nodeType": "class",
-          "props": Object {
-            "cityName": "Berlin",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "Waltham",
-          "nodeType": "class",
-          "props": Object {
-            "cityName": "Waltham",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-      ],
-      "type": [Function],
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "legacyContextMode": "parent",
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getChildContext": Object {
-            "calledByRenderer": false,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-  },
-}
+"<Home>
+  <MainContainer>
+    <div className=\\"mainContainer\\">
+      <FormSearch handleSearch={[Function]}>
+        <div className=\\"searchFormContainer\\">
+          <form className=\\"searchForm\\" onSubmit={[Function]}>
+            <input className=\\"inputSearch\\" type=\\"text\\" placeholder=\\"Input the city name\\" onChange={[Function]} value=\\"\\" />
+            <input className=\\"searchButton\\" type=\\"submit\\" value=\\"Search\\" />
+          </form>
+        </div>
+      </FormSearch>
+      <WeatherContainer cityWeatherInfos={{...}}>
+        <div />
+      </WeatherContainer>
+    </div>
+  </MainContainer>
+</Home>"
 `;

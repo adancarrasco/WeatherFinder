@@ -4,6 +4,11 @@ exports[`WeatherCard it should render correctly 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <WeatherCard
     cityName="Berlin"
+    currentTemp={3}
+    description="few clouds"
+    icon="02n"
+    maxTemp={3}
+    minTemp={2}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -42,6 +47,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "memoizedState": Object {
@@ -49,6 +59,11 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "mode": 0,
@@ -131,6 +146,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -152,6 +172,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -178,6 +203,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -225,6 +255,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -244,6 +279,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "ref": null,
@@ -326,6 +366,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -347,6 +392,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -373,6 +423,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -420,6 +475,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -445,6 +505,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "refs": Object {},
@@ -453,6 +518,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "updater": Object {
@@ -483,12 +553,13 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "cityName": "Berlin",
+          "currentTemp": 3,
+          "description": "few clouds",
+          "icon": "02n",
+          "maxTemp": 3,
+          "minTemp": 2,
         },
         "memoizedState": Object {
-          "currentTemp": null,
-          "description": null,
-          "maxTemp": null,
-          "minTemp": null,
           "selectedImage": null,
         },
         "mode": 0,
@@ -515,6 +586,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "memoizedState": Object {
@@ -522,6 +598,11 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "mode": 0,
@@ -604,6 +685,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -625,6 +711,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -651,6 +742,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -698,6 +794,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -717,6 +818,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "ref": null,
@@ -799,6 +905,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -820,6 +931,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -846,6 +962,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -893,6 +1014,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -918,6 +1044,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "refs": Object {},
@@ -926,6 +1057,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "updater": Object {
@@ -942,6 +1078,11 @@ ReactWrapper {
         },
         "pendingProps": Object {
           "cityName": "Berlin",
+          "currentTemp": 3,
+          "description": "few clouds",
+          "icon": "02n",
+          "maxTemp": 3,
+          "minTemp": 2,
         },
         "ref": null,
         "return": FiberNode {
@@ -967,6 +1108,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "memoizedState": Object {
@@ -974,6 +1120,11 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "mode": 0,
@@ -1056,6 +1207,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -1077,6 +1233,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -1103,6 +1264,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -1150,6 +1316,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -1169,6 +1340,11 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "cityName": "Berlin",
+              "currentTemp": 3,
+              "description": "few clouds",
+              "icon": "02n",
+              "maxTemp": 3,
+              "minTemp": 2,
             },
           },
           "ref": null,
@@ -1251,6 +1427,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -1272,6 +1453,11 @@ ReactWrapper {
                       props={
                         Object {
                           "cityName": "Berlin",
+                          "currentTemp": 3,
+                          "description": "few clouds",
+                          "icon": "02n",
+                          "maxTemp": 3,
+                          "minTemp": 2,
                         }
                       }
                     />,
@@ -1298,6 +1484,11 @@ ReactWrapper {
                 props={
                   Object {
                     "cityName": "Berlin",
+                    "currentTemp": 3,
+                    "description": "few clouds",
+                    "icon": "02n",
+                    "maxTemp": 3,
+                    "minTemp": 2,
                   }
                 }
               />,
@@ -1345,6 +1536,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -1370,6 +1566,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "refs": Object {},
@@ -1378,6 +1579,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "updater": Object {
@@ -1402,16 +1608,18 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
-      "fetchWeatherInfo": [Function],
       "props": Object {
         "cityName": "Berlin",
+        "currentTemp": 3,
+        "description": "few clouds",
+        "icon": "02n",
+        "maxTemp": 3,
+        "minTemp": 2,
       },
       "refs": Object {},
+      "renderCard": [Function],
+      "renderTableDetails": [Function],
       "state": Object {
-        "currentTemp": null,
-        "description": null,
-        "maxTemp": null,
-        "minTemp": null,
         "selectedImage": null,
       },
       "updater": Object {
@@ -1425,6 +1633,11 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "cityName": "Berlin",
+      "currentTemp": 3,
+      "description": "few clouds",
+      "icon": "02n",
+      "maxTemp": 3,
+      "minTemp": 2,
     },
     "ref": null,
     "rendered": null,
@@ -1459,6 +1672,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "memoizedState": Object {
@@ -1466,6 +1684,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "mode": 0,
@@ -1548,6 +1771,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -1569,6 +1797,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -1595,6 +1828,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -1642,6 +1880,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -1661,6 +1904,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "ref": null,
@@ -1743,6 +1991,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -1764,6 +2017,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -1790,6 +2048,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -1837,6 +2100,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -1862,6 +2130,11 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "refs": Object {},
@@ -1870,6 +2143,11 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "updater": Object {
@@ -1900,12 +2178,13 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "cityName": "Berlin",
+            "currentTemp": 3,
+            "description": "few clouds",
+            "icon": "02n",
+            "maxTemp": 3,
+            "minTemp": 2,
           },
           "memoizedState": Object {
-            "currentTemp": null,
-            "description": null,
-            "maxTemp": null,
-            "minTemp": null,
             "selectedImage": null,
           },
           "mode": 0,
@@ -1932,6 +2211,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "memoizedState": Object {
@@ -1939,6 +2223,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "mode": 0,
@@ -2021,6 +2310,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2042,6 +2336,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2068,6 +2367,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -2115,6 +2419,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -2134,6 +2443,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "ref": null,
@@ -2216,6 +2530,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2237,6 +2556,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2263,6 +2587,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -2310,6 +2639,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -2335,6 +2669,11 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "refs": Object {},
@@ -2343,6 +2682,11 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "updater": Object {
@@ -2359,6 +2703,11 @@ ReactWrapper {
           },
           "pendingProps": Object {
             "cityName": "Berlin",
+            "currentTemp": 3,
+            "description": "few clouds",
+            "icon": "02n",
+            "maxTemp": 3,
+            "minTemp": 2,
           },
           "ref": null,
           "return": FiberNode {
@@ -2384,6 +2733,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "memoizedState": Object {
@@ -2391,6 +2745,11 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "mode": 0,
@@ -2473,6 +2832,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2494,6 +2858,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2520,6 +2889,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -2567,6 +2941,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -2586,6 +2965,11 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "cityName": "Berlin",
+                "currentTemp": 3,
+                "description": "few clouds",
+                "icon": "02n",
+                "maxTemp": 3,
+                "minTemp": 2,
               },
             },
             "ref": null,
@@ -2668,6 +3052,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2689,6 +3078,11 @@ ReactWrapper {
                         props={
                           Object {
                             "cityName": "Berlin",
+                            "currentTemp": 3,
+                            "description": "few clouds",
+                            "icon": "02n",
+                            "maxTemp": 3,
+                            "minTemp": 2,
                           }
                         }
                       />,
@@ -2715,6 +3109,11 @@ ReactWrapper {
                   props={
                     Object {
                       "cityName": "Berlin",
+                      "currentTemp": 3,
+                      "description": "few clouds",
+                      "icon": "02n",
+                      "maxTemp": 3,
+                      "minTemp": 2,
                     }
                   }
                 />,
@@ -2762,6 +3161,11 @@ ReactWrapper {
                     props={
                       Object {
                         "cityName": "Berlin",
+                        "currentTemp": 3,
+                        "description": "few clouds",
+                        "icon": "02n",
+                        "maxTemp": 3,
+                        "minTemp": 2,
                       }
                     }
                   />,
@@ -2787,6 +3191,11 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "refs": Object {},
@@ -2795,6 +3204,11 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "cityName": "Berlin",
+                  "currentTemp": 3,
+                  "description": "few clouds",
+                  "icon": "02n",
+                  "maxTemp": 3,
+                  "minTemp": 2,
                 },
               },
               "updater": Object {
@@ -2819,16 +3233,18 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
-        "fetchWeatherInfo": [Function],
         "props": Object {
           "cityName": "Berlin",
+          "currentTemp": 3,
+          "description": "few clouds",
+          "icon": "02n",
+          "maxTemp": 3,
+          "minTemp": 2,
         },
         "refs": Object {},
+        "renderCard": [Function],
+        "renderTableDetails": [Function],
         "state": Object {
-          "currentTemp": null,
-          "description": null,
-          "maxTemp": null,
-          "minTemp": null,
           "selectedImage": null,
         },
         "updater": Object {
@@ -2842,6 +3258,11 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "cityName": "Berlin",
+        "currentTemp": 3,
+        "description": "few clouds",
+        "icon": "02n",
+        "maxTemp": 3,
+        "minTemp": 2,
       },
       "ref": null,
       "rendered": null,
