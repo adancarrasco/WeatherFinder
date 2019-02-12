@@ -6,7 +6,7 @@ This project shows by default the current weather for Berlin and Waltham cities.
 
 ## Before running the project
 
-Please run `yarn install`. In the build folder is a production ready code so it can be hosted at the server root.
+Please run `yarn install`. In the build folder is a production ready code so it can be hosted at the server root. You need to have yarn installed. For instructions on how to install yarn please click the following link: [Install yarn](https://yarnpkg.com/lang/en/docs/install).
 
 ## Available Scripts
 
